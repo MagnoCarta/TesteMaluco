@@ -1,0 +1,44 @@
+html {
+  font-family: 'Exo 2', sans-serif;
+}
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  background-color: #DDDDDD;
+}
+
+.container {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.div-login {
+  display: inline-block;
+  
+}
+
+
+.inputEmail, .inputSenha {
+  display: block;
+  padding: 5px;
+  margin: 10px;
+  color: #660099;
+}
+
+.button {
+color: #494949;
+text-transform: uppercase;
+text-decoration: none;
+background: #ffffff;
+padding: 10px;
+border: 4px solid #494949;
+display: inline-block;
+transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+color: #ffffff;
+background: #50C878;
+transition: all 0.4s ease 0s;
+}

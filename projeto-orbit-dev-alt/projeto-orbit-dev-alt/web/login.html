@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Orbit - Página de Login</title>
+  <!-- <script type="text/javascript" src="scripts/login.js" defer></script> -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <script src="scripts/firebaseConfig.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/4.3.0/firebase-ui-auth__pt_br.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.3.0/firebase-ui-auth.css" />
+  <script src="scripts/firebaseUIConfig.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <style>
+       header{height:150px}  
+        </style>
+      <nav>
+        <p>
+          <a class="a0" href="index.html">
+            <img border="0" alt="Orbit" src="button-icons/logoOrbit000.svg">
+          </a>
+        </p>
+        <br>
+        <a class="a1 navlinks" href="graficos.html">Gráficos </a>
+        <a class="a1 navlinks" href="propriedadesaritmeticas.html">Propriedades Aritméticas </a>
+        <a class="a1 navlinks" href="formulas.html">Fórmulas </a>
+        <a class="a1 navlinks" style="color: rgb(0, 0, 85);" href="#">Login</a>
+        
+      </nav>
+    </header>
+    <div id="loader">
+    </div>
+    <div id="firebaseui-auth-container" class="div-login">
+      <!--
+        <form class="login" method="post">
+          <label for="">E-mail ou usuário</label>
+          <input class="inputEmail" type="email" name="" value="">
+          <label for="">Senha</label>
+          <input class="inputSenha" type="password" name="" value="">
+          <button class="button" type="submit" name="button">Entrar</button>
+        </form>
+      -->
+    </div>
+  </div>
+</body>
+
+</html>

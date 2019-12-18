@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Orbit - Fórmulas</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+    <script type="text/javascript" src="scripts/inputCalculadora.js" defer></script>
+    <script type="text/javascript" src="scripts/database.js" defer></script>
+    <script type="text/javascript" src="scripts/cabecalho.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic:700&display=swap" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  </head>
+  <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-database.js"></script>
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-analytics.js"></script>
+    <header>
+      <nav>
+        <p>
+            <a class="a0" href="index.html">
+          <img border="0" alt="Orbit" src="button-icons/logoOrbit000.svg">
+          </a>
+          </p>
+          <br>
+        <a class="a1 navlinks" href="graficos.html">Gráficos </a>
+        <a class="a1 navlinks" href="propriedadesaritmeticas.html">Propriedades Aritméticas </a>
+        <a class="a1 navlinks" style="color: rgb(0, 0, 85);" href="formulas.html">Fórmulas </a>
+        <a class="a1 navlinks" href="login.html">Login</a>
+        
+        <div class="nav-bar">
+          <button  onclick="exibirMat()">Matemática</button>
+          <script>
+              function exibirMat() {
+                var formulasMat = document.getElementById("caixaMat");
+                var formulasFis = document.getElementById("caixaFis");
+                  formulasMat.style.display = "block";
+                  formulasFis.style.display = "none";
+
+              }
+            </script>
+          <h1 style="font-family: 'Montserrat';">Fórmulas de Matemática</h1>
+          <button  onclick="exibirFis()">Física</button>
+    <script>
+      function exibirFis() {
+        var formulasFis = document.getElementById("caixaFis");
+        var formulasMat = document.getElementById("caixaMat");
+           formulasFis.style.display = "block";
+           formulasMat.style.display = "none";
+
+      }
+    </script>
+
+      </nav>
+    </header>
+    <br><br> <br><br> <br> 
+    <div id="caixaMat" class="caixa-formulasMat">
+      <!--<div class="formula">-->
+        <p>
+            &nbsp; &nbsp; Equação Quadrática:
+        </p>
+        <p>
+          <ul>
+            <li>ax^2 + bx + c = 0</li>
+            <li>x = {-b +- √b^2 -4ac} / {2a}</li>
+          </ul>
+        </p>
+        <p>
+          &nbsp; &nbsp; Teorema de Pitágoras:
+      </p>
+      <p>
+        <ul>
+          <li>a^2 = b^2 + c^2</li>
+        </ul>
+      </p>
+      <p>
+        &nbsp; &nbsp; Volume do Cone:
+    </p>
+    <p>
+      <ul>
+        <li>V = {3.14 . r^2 . h} / {3} </li>
+      </ul>
+    </p>
+    <h1>Funções</h1> $$ ax^2+bx+c $$
+        <h4>Bhaskara</h4> $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+        <h4>Vértice da parábola</h4> $$ X_v = {-b\over 2a} $$ $$ Y_v = {-\Delta\over 4a} $$
+
+    </div>
+
+    <div id="caixaFis" class="caixa-formulasFis">
+        <!--<div class="formula">-->
+          <p>
+              &nbsp; &nbsp; Movimento Uniforme:
+          </p>
+          <p>
+            <ul>
+              <li>S = So + V . Dt</li>
+              <li>Vm = {DS} / {Dt}</li>
+            </ul>
+          </p>
+
+          <p>
+              &nbsp; &nbsp; Movimento Uniformemente Variado:
+          </p>
+          <p>
+            <ul>
+              <li>V = Vo + A . Dt</li>
+              <li>Am = {DV} / {Dt}</li>
+              <li>S = So + Vo . t + {A . t^2} / {2}</li>
+            </ul>
+          </p>
+
+      </div>
+
+  </body>
+</html>

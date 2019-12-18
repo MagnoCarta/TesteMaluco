@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  width="70"
+  height="45"
+  viewBox="0 0 70 45"
+  id="svg8621"
+  sodipodi:version="0.32"
+  inkscape:version="0.42.2"
+  sodipodi:docbase="C:\Programme\Inkscape"
+  sodipodi:docname="Euler0001.svg">
+
+  <style>
+    .diagram-text {
+      font-style: bold;
+      font-size: 30px;
+      font-family: 'Exo 2', sans-serif;
+    }
+  </style>
+
+  <defs id="defs3"/>
+  <sodipodi:namedview
+    inkscape:document-units="mm"
+    id="base"
+    pagecolor="#ffffff"
+    bordercolor="#666666"
+    borderopacity="1.0"
+    inkscape:pageopacity="0.0"
+    inkscape:pageshadow="2"
+    inkscape:zoom="0.66872763"
+    inkscape:cx="94.679408"
+    inkscape:cy="141.50708"
+    inkscape:current-layer="layer1"
+    inkscape:window-width="1024"
+    inkscape:window-height="742"
+    inkscape:window-x="-4"
+    inkscape:window-y="-4"
+    showborder="true"
+    borderlayer="top"/>
+  <metadata id="metadata4">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <line x1="13.5" y1="19" x2="45" y2="19" style="stroke:rgb(0,0,0);stroke-width:1.5"/>         <!--  -  -->
+  <rect width="15" height="15" x="22" y="1"
+   style="fill:rgb(255,255,255);stroke-width:1;stroke:rgb(0,0,0)" />
+  <rect width="15" height="15" x="22" y="24"
+   style="fill:rgb(255,255,255);stroke-width:1;stroke:rgb(0,0,0)" /> 
+  
+</svg>

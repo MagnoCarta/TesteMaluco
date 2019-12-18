@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  width="307.28000pt"
+  height="223.89000pt"
+  id="svg8621"
+  sodipodi:version="0.32"
+  inkscape:version="0.42.2"
+  sodipodi:docbase="C:\Programme\Inkscape"
+  sodipodi:docname="Euler0001.svg">
+
+  <style>
+    .diagram-text {
+      font-style: bold;
+      font-size: 30px;
+      font-family: 'Exo 2', sans-serif;
+    }
+  </style>
+
+  <defs id="defs3"/>
+  <sodipodi:namedview
+    inkscape:document-units="mm"
+    id="base"
+    pagecolor="#ffffff"
+    bordercolor="#666666"
+    borderopacity="1.0"
+    inkscape:pageopacity="0.0"
+    inkscape:pageshadow="2"
+    inkscape:zoom="0.66872763"
+    inkscape:cx="94.679408"
+    inkscape:cy="141.50708"
+    inkscape:current-layer="layer1"
+    inkscape:window-width="1024"
+    inkscape:window-height="742"
+    inkscape:window-x="-4"
+    inkscape:window-y="-4"
+    showborder="true"
+    borderlayer="top"/>
+  <metadata id="metadata4">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <line x1="25.5" y1="35" x2="30.5" y2="35" style="stroke:rgb(0,0,0);stroke-width:1.5"/>         <!--  -  -->
+  <line x1="30" y1="35" x2="40" y2="50" style="stroke:rgb(0,0,0);stroke-width:1.5"/>             <!--  `  -->
+  <line x1="40" y1="51" x2="50" y2="20" style="stroke:rgb(0,0,0);stroke-width:1.5"/>             <!--  /  -->
+  <line x1="49.5" y1="20" x2="90" y2="20" style="stroke:rgb(0,0,0);stroke-width:1.5"/>           <!--  _  -->
+  <line x1="90" y1="19.3" x2="90" y2="25" style="stroke:rgb(0,0,0);stroke-width:1.5"/>           <!--  '  -->
+  <rect width="25" height="25" x="58" y="25"
+   style="fill:rgb(255,255,255);stroke-width:1.5;stroke:rgb(0,0,0)" />
+  <text x="35" y="30" fill="black" class="diagram-text"  style="font-family:times; font-size:20;">2</text> 
+</svg>
